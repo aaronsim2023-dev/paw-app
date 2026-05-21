@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "PawFinder SG",
+    "slug": "pawfinder-sg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "pawfindersg",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "sg.pawfinder.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF8C42",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "package": "sg.pawfinder.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
