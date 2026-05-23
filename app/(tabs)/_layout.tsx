@@ -54,6 +54,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="services"
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <TabIcon name={focused ? 'grid' : 'grid-outline'} focused={focused} label="Services" />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="favourites"
         options={{
           tabBarIcon: ({ focused }) => (
